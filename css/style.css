@@ -1,0 +1,189 @@
+/* Our custom style */
+
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+
+html,
+body,
+header,
+.view {
+    font-family: 'Comfortaa', cursive;
+}
+
+h1,
+h2,
+.font-strong {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.text-shadow {
+    text-shadow: 0 2px 2px #000;
+}
+
+
+
+
+/* Containers, etc */
+.bg-general  {
+    background-position: center center;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+    color: #FFF;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+
+
+
+/* Navbar */
+.intro-page .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+    box-shadow: none;
+}
+
+.isotype-nav {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+
+
+/* Home */
+@media only screen and (max-width: 450px) {
+    .estratosfera-main .home-bg {
+        background-image: url("../img/bg/hands-mobile.jpg");
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1920px) {
+    .estratosfera-main .home-bg {
+        background-image: url("../img/bg/hands-fullhd.jpg");
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .estratosfera-main .home-bg {
+        background-image: url("../img/bg/hands-4k.jpg");
+    }
+}
+
+.isotype {
+    width: 4em;
+    height: 4em;
+}
+
+
+
+
+/* Phrase */
+@media only screen and (max-width: 450px) {
+    .estratosfera-main .phrase-bg {
+        background-image: url("../img/bg/huichol-mobile.jpg");
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1920px) {
+    .estratosfera-main .phrase-bg {
+        background-image: url("../img/bg/huichol-fullhd.jpg");
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .estratosfera-main .phrase-bg {
+        background-image: url("../img/bg/huichol-4k.jpg");
+    }
+}
+
+.phrase {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+
+.phrase.phrase-photo {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 450px) {
+    .phrase-large {
+        height: 600px;
+    }
+}
+
+
+
+
+/* Footer */
+.footer-pattern {
+    background-color: #0099cc;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%230d47a1' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+
+
+/* Utilities */
+.remove-margin {
+    margin-bottom: -2rem;
+}
+
+.intro {
+    min-height: 0%;
+}
+
+.main-shadow {
+    box-shadow: 0 8px 6px -6px #000;
+}
+
+.element-shadow {
+    box-shadow: 0 6px 6px -6px #000;
+}
+
+.hr-light {
+    background-color: #fff;
+    height: 0.2px;
+}
+
+p,
+.break-hyphen {
+    -ms-word-break: break-all;
+    word-break: normal;
+
+    /* Non standard for WebKit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.btn {
+    background: #00C851; /* Fallback for browsers that don't support gradients */
+    background: linear-gradient(#00C851, #007E33)  no-repeat;
+		font-size: 16px;
+		min-height: 50px;
+		border: none;
+}
+
+.btn:hover, .btn:focus {
+    background: #007E33; /* Fallback for browsers that don't support gradients */
+    background: linear-gradient(#007E33, #00C851)  no-repeat;
+		outline: none;
+}
