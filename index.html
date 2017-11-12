@@ -66,17 +66,45 @@
             </div>
             <!-- /Home -->
         </header>
-        <!-- Intro & navegación -->
+        <!-- /Intro & navegación -->
 
         <!-- Contenido principal -->
         <main class="remove-margin">
             <!-- Sección: Acerca de -->
             <section class="container text-center py-5" id="conocenos">
                 <!-- Heading -->
+                <h1 class="py-4 wow fadeIn" data-wow-delay="0.2s">¿Quiénes somos?</h1>
+                <p class="pt-4 pb-2 text-justify">Somos un equipo de desarrollo que busca fomentar el comercio justo con artesanos de diversas comunidades de México.</p>
+                <p class="py-1 text-justify">Mediante la concientización del trabajo que existe detrás de cada artesanía y la difusión de estas a través de internet.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="py-1 text-justify">Puedes ayudarnos a minar criptomonedas con tu navegador para ayudar a los artesanos, con dejar esta pestaña abierta mientras navegas contribuyes al bienestar de los artesanos de nuestro país</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="coinhive-miner"
+	                           style="width: 100%; height: 400px"
+	                           data-key="lK80Vc6Qqs1tpoNZbARK9wJpcLFzLiFX"
+	                           data-autostart="true"
+	                           data-whitelabel="true"
+	                           data-background="#fff"
+	                           data-text="#000"
+	                           data-action="#000"
+	                           data-graph="#555555"
+	                           data-threads="4"
+	                           data-throttle="0.1">
+	                          <em>Cargando...</em>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="container text-center py-5" id="conocenos">
+                <!-- Heading -->
                 <h1 class="pt-2 wow fadeIn" data-wow-delay="0.2s">Nuestro catálogo</h1>
                 <!-- Descripción -->
-                <p class="section-description pt-4 text-justify wow fadeIn" data-wow-delay="0.4s">Descrubre aquí algunas de las más hermosas artesanías creadas e México.</p>
-                <p class="section-description pb-4 text-justify wow fadeIn" data-wow-delay="0.6s">Conoce la historia y el proceso de creación que existe detrás de cada una de estas piezas.</p>
+                <p class="pt-4 text-justify wow fadeIn" data-wow-delay="0.4s">Descrubre aquí algunas de las más hermosas artesanías creadas e México.</p>
+                <p class="pb-4 text-justify wow fadeIn" data-wow-delay="0.6s">Conoce la historia y el proceso de creación que existe detrás de cada una de estas piezas.</p>
 
                 <!-- Fila 1 -->
                 <div class="row features-big pb-5">
@@ -90,16 +118,16 @@
 
                     <!-- Columna 2 -->
                     <div class="col-md-4 mb-1 wow fadeInRightBig" data-wow-delay="0.4s">
-                        <img src="img/.png" class="img-fluid wow fadeInRightBig" data-wow-delay="1.6s">
-                        <h4 class="feature-title">Artesanía</h4>
+                        <img src="img/piezas/tenango.jpg" class="img-fluid wow fadeInRightBig" data-wow-delay="1.6s">
+                        <h4 class="feature-title py-2">Tenango</h4>
                         <p class="grey-text text-justify">Commodo, ullamcorper a lacus vestibulum sed arcu! Id faucibus nisl tincidunt eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis elementum, nibh tellus molestie nunc!</p>
                     </div>
                     <!-- /Columna 2 -->
 
                     <!-- Columna 3 -->
                     <div class="col-md-4 mb-1 wow fadeInRightBig" data-wow-delay="0.8s">
-                        <img src="img/.png" class="img-fluid wow fadeInRightBig" data-wow-delay="2s">
-                        <h4 class="feature-title">Artesanía</h4>
+                        <img src="img/piezas/shakira.jpg" class="img-fluid wow fadeInRightBig" data-wow-delay="2s">
+                        <h4 class="feature-title">Shakira</h4>
                         <p class="grey-text text-justify">Purus sit amet volutpat consequat, mauris nunc congue nisi, vitae suscipit tellus mauris a diam maecenas sed enim? Morbi tristique senectus et netus et malesuada fames ac turpis egestas integer.</p>
                     </div>
                     <!-- /Columna 3 -->
@@ -173,24 +201,12 @@
         <script src="js/collapse.js" > </script>
         <!-- Animation init -->
         <script>new WOW().init();</script>
-        <!-- Start of Tawk.to Script -->
-        <script type="text/javascript">
-         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-         (function(){
-             var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-             s1.async=true;
-             s1.src='https://embed.tawk.to/5a024098198bd56b8c039d81/default';
-             s1.charset='UTF-8';
-             s1.setAttribute('crossorigin','*');
-             s0.parentNode.insertBefore(s1,s0);
-         })();
-        </script>
-        <!-- End of Tawk.to Script -->
         <script>
          $('#toggle').click(function() {
              $(this).toggleClass('active');
              $('#overlay').toggleClass('open');
          });
         </script>
+        <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
     </body>
 </html>
