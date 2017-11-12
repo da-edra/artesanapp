@@ -187,3 +187,7 @@ p,
     background: linear-gradient(#007E33, #00C851)  no-repeat;
 		outline: none;
 }
+
+.hidden {
+    display: none;
+}
